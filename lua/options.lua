@@ -1,4 +1,3 @@
-vim.cmd("colorscheme dogrun")
 vim.opt.termguicolors = true
 vim.opt.list = true
 vim.opt.listchars:append("space:⋅")
@@ -42,3 +41,4 @@ vim.opt.sidescrolloff = 8
 vim.opt.shortmess:append "c"
 vim.opt.whichwrap:append("<,>,[,],h,l")
 vim.opt.iskeyword:append("-")
+vim.cmd("colorscheme dogrun")
