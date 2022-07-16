@@ -52,7 +52,7 @@ local on_attach = function(client, bufnr)
   vim.keymap.set("n", "gd", vim.lsp.buf.definition, bufopts)
   vim.keymap.set("n", "gr", vim.lsp.buf.references, bufopts)
   vim.keymap.set("n", "<space>d", vim.lsp.buf.hover, bufopts)
-  vim.keymap.set("n", "<space>f", vim.lsp.buf.format, bufopts)
+  vim.keymap.set("n", "<space>f", vim.lsp.buf.formatting, bufopts)
 end
 vim.api.nvim_set_keymap(
   "n",
