@@ -1,4 +1,5 @@
 vim.opt.termguicolors = true
+vim.opt.background = 'light'
 vim.opt.list = true
 vim.opt.listchars:append("space:⋅")
 vim.opt.autoread = true
@@ -19,7 +20,6 @@ vim.opt.smartindent = true
 vim.opt.splitbelow = true
 vim.opt.splitright = true
 vim.opt.swapfile = false
-vim.opt.termguicolors = true
 vim.opt.timeoutlen = 1000
 vim.opt.undofile = true
 vim.opt.updatetime = 300
@@ -41,4 +41,3 @@ vim.opt.sidescrolloff = 8
 vim.opt.shortmess:append "c"
 vim.opt.whichwrap:append("<,>,[,],h,l")
 vim.opt.iskeyword:append("-")
-vim.cmd("colorscheme dogrun")
