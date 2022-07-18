@@ -1,5 +1,5 @@
 vim.opt.termguicolors = true
-vim.opt.background = 'light'
+vim.opt.background = 'dark'
 vim.opt.list = true
 vim.opt.listchars:append("space:⋅")
 vim.opt.autoread = true

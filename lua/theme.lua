@@ -1,5 +1,4 @@
-vim.cmd("colorscheme gruvbox-material")
-vim.g.gruvbox_material_background = 'soft'
+vim.cmd("colorscheme dogrun")
 
 require("indent_blankline").setup {
   space_char_blankline = " ",
@@ -10,7 +9,7 @@ require("indent_blankline").setup {
 require("lualine").setup {
   options = {
     icons_enabled = true,
-    theme = 'gruvbox-material',
+    theme = 'auto',
   }
 }
 

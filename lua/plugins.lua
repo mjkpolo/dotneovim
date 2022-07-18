@@ -16,7 +16,7 @@ require("packer").init {
 return require("packer").startup(function(use)
   use 'wbthomason/packer.nvim'
   use "lukas-reineke/indent-blankline.nvim"
-  use 'sainnhe/gruvbox-material'
+  use 'wadackel/vim-dogrun'
   use "nvim-treesitter/nvim-treesitter"
   use {
     "kyazdani42/nvim-tree.lua",
