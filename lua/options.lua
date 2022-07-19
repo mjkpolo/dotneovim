@@ -1,4 +1,4 @@
-vim.opt.termguicolors = true
+--vim.opt.termguicolors = true
 vim.opt.background = 'dark'
 vim.opt.list = true
 vim.opt.listchars:append("space:⋅")
