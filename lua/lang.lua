@@ -49,7 +49,7 @@ vim.api.nvim_set_keymap(
 )
 
 require("nvim-lsp-installer").setup {
-  ensure_installed = { "clangd", "pylsp", "sumneko_lua" },
+  ensure_installed = { "ccls", "pylsp", "sumneko_lua" },
   automatic_installation = true,
 }
 
@@ -65,6 +65,6 @@ lspconfig.sumneko_lua.setup {
   },
 }
 
-lspconfig.clangd.setup { on_attach = on_attach }
+lspconfig.ccls.setup { on_attach = on_attach }
 lspconfig.pylsp.setup { on_attach = on_attach }
 lspconfig.cmake.setup { on_attach = on_attach }
